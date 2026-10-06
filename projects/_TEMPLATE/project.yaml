@@ -1,0 +1,21 @@
+# Copy this folder to projects/<project-name>/ (kebab-case) and fill it in.
+# Agents read this file first. They never edit it.
+name: <project name>
+# What kind of work this project involves. One or more of:
+# migration | feature | fix | refactor | investigation | other
+work_types: []
+summary: <one or two lines: what this project is and why it exists>
+
+# Every codebase, database or system the project touches.
+# role: source | target | reference | working (where changes land)
+repos:
+  - name: <system name>
+    role: source
+    link: <repo path or URL>
+    branch: <optional>
+  - name: <system name>
+    role: target
+    link: <repo path or URL>
+
+# Optional rules for this project that agents must follow (naming, environments, off-limits areas).
+constraints: []

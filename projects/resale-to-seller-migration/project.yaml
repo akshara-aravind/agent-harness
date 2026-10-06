@@ -1,0 +1,13 @@
+name: Resale Portal to Seller Portal
+work_types: [migration]
+summary: Move features and data from the existing Resale Portal to the new Seller Portal.
+
+repos:
+  - name: Resale Portal
+    role: source
+    link: /path/to/resale-portal   # placeholder: set to the real path
+  - name: Seller Portal
+    role: target
+    link: /path/to/seller-portal   # placeholder: set to the real path
+
+constraints: []
